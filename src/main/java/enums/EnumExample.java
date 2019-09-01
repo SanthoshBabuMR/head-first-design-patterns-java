@@ -26,5 +26,8 @@ public class EnumExample {
             System.out.println(out);
         }
         System.out.println(INDIAN_STATES.KERALA.equals(INDIAN_STATES.valueOf("KERALA")));
+        System.out.println(INDIAN_STATES.KERALA.equals(INDIAN_STATES.valueOf("MADHYA_PRADESH")));
+        System.out.println(indian_states[0].getDeclaringClass());
+        System.out.println(indian_states[1].getClass());
     }
 }
